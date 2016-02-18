@@ -29,8 +29,7 @@ cd ~/rpmbuild
 ```sh
 wget -O SPECS/ruby-2.1.spec
 https://raw.githubusercontent.com/lesstif/ruby-rpm/master/ruby-2.1.spec 
-wget -O SOURCES/ruby-2.1.8.tar.gz
-https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.8.tar.gz
+wget -O SOURCES/ruby-2.1.8.tar.gz https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.8.tar.gz
 rpmbuild -bb SPECS/ruby-2.1.spec 
 ```
 
@@ -39,7 +38,6 @@ rpmbuild -bb SPECS/ruby-2.1.spec
 ```sh
 wget -O SPECS/ruby-2.2.spec
 https://raw.githubusercontent.com/lesstif/ruby-rpm/master/ruby-2.2.spec 
-wget -O SOURCES/ruby-2.2.4.tar.gz
-https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz
+wget -O SOURCES/ruby-2.2.4.tar.gz https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz
 rpmbuild -bb SPECS/ruby-2.2.spec 
 ```
